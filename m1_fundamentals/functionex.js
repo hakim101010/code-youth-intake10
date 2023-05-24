@@ -30,3 +30,9 @@
   //  return Math.floor(Math.random()*max);
 //}
 //console.log(getRandomInt(100));
+
+//function square(a){
+    //let area=a*a
+    //console.log("area of square",area);
+//}
+//square(4)
