@@ -43,7 +43,6 @@ for(let i=0;i<numbersArray.length;i++){
 }
 
 //4
-
 numbersArray.length
 let sum=0
 for(let i=0;i<numbersArray.length;i++){
