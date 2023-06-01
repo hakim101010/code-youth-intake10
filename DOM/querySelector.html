@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>First Paragraph</p>
+    <p id="p2">Second Paragraph</p>
+    <p class="red">Third Paragraph</p>
+    <p class="red">Fourth Paragraph</p>
+    <button onclick="select()">Change</button>
+    <script>
+        function select(){
+           const p=document.querySelectorAll("p");
+           const p=document.querySelectorAll(".red");
+           for(let i0;i<p.length;i++){
+            //p[i].style.marginLeft="30px";
+            p[i].style.color="red";
+           }
+        }
+    </script>
+</body>
+</html>

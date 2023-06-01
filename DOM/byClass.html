@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Heading1</h1>
+        <p class="para">Yes</p>
+        <p class="para">No</p>
+            <button onclick="change()">Click</button>
+            <script>
+                function change(){
+                    const paras=document.getElementsByTagName('p');
+                    console.log(paras);
+                    //paras.style.color='green';
+                    paras[0].style.color='red';
+                    paras[1].style.color='red';
+                    //for(let i=0;i<paras.length;i++){
+                        //paras[i].style.color='red';
+                    //}
+                }
+            </script>
+    </body>
+</html>
+1. Apples
+2. Banana
+3. Strawberry
+4. Pomegranate
+5. Grapes
+6. Kiwi

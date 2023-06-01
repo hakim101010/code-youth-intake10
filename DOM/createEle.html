@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>First paragraph</p>
+    <p id="p2">Second paragraph</p>
+    <p>Third paragraph</p>
+    <p>Fourth paragraph</p>
+    <p>New Paragraph</p>
+    <button onclick="create()">Add</button>
+    <button onclick="remove()">Remove</button>
+    <script>
+        function create(){
+            const img=document.createElement("img");
+            img.src=".../images/unsplash.jpg"
+            img.height="400";
+            img.width="300px";
+            img.alt="Cup";
+            console.log(img);
+            document.body.appendChild(img);
+
+            const p=document.createElement("p");
+            p.innerHTML="New paragraph";
+            p.style.color="red";
+            document.body.append(p);
+        }
+        function remove(){
+            document.querySelector("img").remove()
+            document.getElementById('p2')();
+        }
+    </script>
+</body>
+</html>
